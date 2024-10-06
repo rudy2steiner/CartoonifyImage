@@ -18,10 +18,10 @@ const wasmContentTypePlugin = {
 
 const ogOptions = {
   basic: {
-    url: 'https://background-erase.xyz/',
+    url: 'https://www.backgrounderase.com/',
     title: 'Background erase',
     type: 'image.png',
-    image: 'https://background-erase.xyz/openog.png',
+    image: 'https://www.backgrounderase.com/openog.png',
     determiner: 'auto',
     description: 'Remove background in seconds',
     locale: 'en_us',
@@ -29,7 +29,7 @@ const ogOptions = {
     siteName: 'Background erase',
   },
   twitter: {
-    image: 'https://background-erase.xyz/openog.png',
+    image: 'https://www.backgrounderase.com/openog.png',
     imageAlt: 'twitter image alt',
   },
 };
