@@ -1,2 +1,2 @@
-# background-erase
-Remove background in seconds.
+# Cartoonify Image
+Cartoonify background in seconds.
