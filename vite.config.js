@@ -26,7 +26,7 @@ const ogOptions = {
     description: 'Remove background in seconds',
     locale: 'en_us',
     localeAlternate: ['en_us'],
-    siteName: 'Background erase',
+    siteName: 'Cartoonify Image',
   },
   twitter: {
     image: 'https://www.cartoonifyimage.com/openog.png',

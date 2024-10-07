@@ -1,4 +1,7 @@
 # Cartoonify Image
 Cartoonify background in seconds.
 
-tailwindcss -i ./tailwind.css -o ./out.css --watch
+## Update tailwind css
+```
+ installment/tailwindcss -i ./tailwind.css -o ./output.css --watch
+```
