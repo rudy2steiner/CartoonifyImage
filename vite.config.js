@@ -3,6 +3,7 @@ import ogPlugin from 'vite-plugin-open-graph'
 import tailwindcss from 'tailwindcss' 
 import autoprefixer from 'autoprefixer'
 import wasm from "vite-plugin-wasm";
+import { resolve } from 'path';
 
 const wasmContentTypePlugin = {
   name: "wasm-content-type-plugin",
@@ -52,6 +53,12 @@ export default defineConfig({
     }
   },
   build: {
-    target: 'esnext'
+    target: 'esnext',
+    rollupOptions: {
+          input: {
+            main: resolve(__dirname, 'index.html'),
+            nested: resolve(__dirname, 'waitlist/index.html'),
+          }
+        },
   }
 });
