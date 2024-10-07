@@ -18,10 +18,10 @@ const wasmContentTypePlugin = {
 
 const ogOptions = {
   basic: {
-    url: 'https://www.backgrounderase.com/',
-    title: 'Background erase',
+    url: 'https://www.cartoonifyimage.com/',
+    title: 'Cartoonify Image',
     type: 'image.png',
-    image: 'https://www.backgrounderase.com/openog.png',
+    image: 'https://www.cartoonifyimage.com/openog.png',
     determiner: 'auto',
     description: 'Remove background in seconds',
     locale: 'en_us',
@@ -29,7 +29,7 @@ const ogOptions = {
     siteName: 'Background erase',
   },
   twitter: {
-    image: 'https://www.backgrounderase.com/openog.png',
+    image: 'https://www.cartoonifyimage.com/openog.png',
     imageAlt: 'twitter image alt',
   },
 };
